@@ -17,6 +17,7 @@ Template.hello.helpers({
 Template.hello.events({
   'click button'(event, instance) {
     // increment the counter when button is clicked
+	// i have changed it when i pulled it from remote git.
     instance.counter.set(instance.counter.get() + 1);
   },
 });
